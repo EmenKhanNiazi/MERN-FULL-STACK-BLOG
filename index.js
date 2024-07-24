@@ -12,7 +12,7 @@ const multer=require('multer');
 const path= require("path");
 
 
-//
+
 
 const uploadMiddleware=multer({dest:'uploads/'}); 
 const fs=require('fs'); //fs is from  file system
