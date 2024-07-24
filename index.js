@@ -9,9 +9,8 @@ const cookieParser=require('cookie-parser');
 const multer=require('multer');
 
 //for hosting
-const path= require("path");
 
-
+const path=require("path");
 
 
 const uploadMiddleware=multer({dest:'uploads/'}); 
@@ -30,14 +29,10 @@ mongoose.connect('mongodb+srv://aiman:niazi@cluster0.4fz3tlo.mongodb.net/?retryW
 const salt = bcrypt.genSaltSync(10); //a random string
 const secret = 'efywefgywefew';
 
-
-app.get("/",(req,res)=>{ //this is telling that we are running our frontend file with the help of our backend
-
+app.get("/", (req, res) => {
   app.use(express.static(path.resolve(__dirname, "client", "build")));
-  res.sendFile(path.resolve(__dirname,"client", "build", "index.html"));
-
-
-});
+  res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
+  });
 
 //cant call res.json 2  times so commenting  one
 app.post('/register', async (req, res) => {

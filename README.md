@@ -1,4 +1,7 @@
-# Full-Stack-Blog
+<<<<<<< HEAD
+# MERN-FULL-STACK-BLOG
+This project is a full-featured blogging website built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. The application allows users to create, edit, view, and delete blog posts with rich text content, handle file uploads, and manage user authentication.
+
 This project is a full-featured blogging website built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. The application allows users to create, edit, view, and delete blog posts with rich text content, handle file uploads, and manage user authentication.
 
 -----Features-----
@@ -17,7 +20,6 @@ User Profiles: Users can view and edit their profiles.
 
 Secure API: API endpoints are secured with JWT and cookies.
 
-
 -----Technologies Used-----
 
 Frontend: React.js, React Router, Axios, ReactQuill, CSS Grid, and media queries for responsive design.
@@ -25,3 +27,7 @@ Frontend: React.js, React Router, Axios, ReactQuill, CSS Grid, and media queries
 Backend: Node.js, Express.js, MongoDB, Mongoose, Multer, bcrypt, JWT, and cookie-parser.
 
 Database: MongoDB for storing user and post data.
+=======
+# Full-Stack-Blog
+This project is a full-featured blogging website built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. The application allows users to create, edit, view, and delete blog posts with rich text content, handle file uploads, and manage user authentication.
+>>>>>>> 2248098 (Initial commit)
